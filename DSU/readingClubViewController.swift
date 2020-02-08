@@ -1,14 +1,14 @@
 //
-//  BannerViewController.swift
+//  readingClubViewController.swift
 //  DSU
 //
-//  Created by Paola Camacho on 2/7/20.
+//  Created by Paola Camacho on 2/8/20.
 //  Copyright © 2020 Paola Camacho. All rights reserved.
 //
 
 import UIKit
 
-class BannerViewController: UIViewController {
+class readingClubViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
