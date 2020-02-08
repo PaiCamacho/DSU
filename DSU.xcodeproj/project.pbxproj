@@ -15,10 +15,10 @@
 		8D319D9D23EE29770084567E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D319D9B23EE29770084567E /* LaunchScreen.storyboard */; };
 		8D319DA823EE29770084567E /* DSUTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D319DA723EE29770084567E /* DSUTests.swift */; };
 		8D319DB323EE29780084567E /* DSUUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D319DB223EE29780084567E /* DSUUITests.swift */; };
-		8D319DC723EE4B490084567E /* MapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D319DC623EE4B490084567E /* MapsViewController.swift */; };
 		8D319DC923EE4BBD0084567E /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D319DC823EE4BBD0084567E /* EventsViewController.swift */; };
 		8D319DCB23EE4C250084567E /* ShuttleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D319DCA23EE4C250084567E /* ShuttleViewController.swift */; };
 		8D319DCD23EE4C7A0084567E /* BannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D319DCC23EE4C7A0084567E /* BannerViewController.swift */; };
+		8D319DCF23EE5BBC0084567E /* MapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D319DCE23EE5BBC0084567E /* MapsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,10 +53,10 @@
 		8D319DAE23EE29780084567E /* DSUUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DSUUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D319DB223EE29780084567E /* DSUUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSUUITests.swift; sourceTree = "<group>"; };
 		8D319DB423EE29780084567E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8D319DC623EE4B490084567E /* MapsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsViewController.swift; sourceTree = "<group>"; };
 		8D319DC823EE4BBD0084567E /* EventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
 		8D319DCA23EE4C250084567E /* ShuttleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShuttleViewController.swift; sourceTree = "<group>"; };
 		8D319DCC23EE4C7A0084567E /* BannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerViewController.swift; sourceTree = "<group>"; };
+		8D319DCE23EE5BBC0084567E /* MapsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,10 +107,10 @@
 		8D319D8F23EE29760084567E /* DSU */ = {
 			isa = PBXGroup;
 			children = (
+				8D319DCE23EE5BBC0084567E /* MapsViewController.swift */,
 				8D319D9023EE29760084567E /* AppDelegate.swift */,
 				8D319D9223EE29760084567E /* SceneDelegate.swift */,
 				8D319D9423EE29760084567E /* ViewController.swift */,
-				8D319DC623EE4B490084567E /* MapsViewController.swift */,
 				8D319D9623EE29760084567E /* Main.storyboard */,
 				8D319DCC23EE4C7A0084567E /* BannerViewController.swift */,
 				8D319DCA23EE4C250084567E /* ShuttleViewController.swift */,
@@ -273,9 +273,9 @@
 			files = (
 				8D319DCB23EE4C250084567E /* ShuttleViewController.swift in Sources */,
 				8D319D9523EE29760084567E /* ViewController.swift in Sources */,
+				8D319DCF23EE5BBC0084567E /* MapsViewController.swift in Sources */,
 				8D319D9123EE29760084567E /* AppDelegate.swift in Sources */,
 				8D319D9323EE29760084567E /* SceneDelegate.swift in Sources */,
-				8D319DC723EE4B490084567E /* MapsViewController.swift in Sources */,
 				8D319DC923EE4BBD0084567E /* EventsViewController.swift in Sources */,
 				8D319DCD23EE4C7A0084567E /* BannerViewController.swift in Sources */,
 			);
