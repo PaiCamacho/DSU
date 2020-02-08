@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D0D703323EF211F0024D6BD /* northShuttle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0D703223EF211F0024D6BD /* northShuttle.swift */; };
+		8D0D703523EF22A00024D6BD /* holidayShuttle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0D703423EF22A00024D6BD /* holidayShuttle.swift */; };
+		8D0D703723EF23970024D6BD /* commonsShuttle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0D703623EF23970024D6BD /* commonsShuttle.swift */; };
+		8D0D703923EF23FF0024D6BD /* southShuttle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0D703823EF23FF0024D6BD /* southShuttle.swift */; };
 		8D319D9123EE29760084567E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D319D9023EE29760084567E /* AppDelegate.swift */; };
 		8D319D9323EE29760084567E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D319D9223EE29760084567E /* SceneDelegate.swift */; };
 		8D319D9523EE29760084567E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D319D9423EE29760084567E /* ViewController.swift */; };
@@ -39,6 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8D0D703223EF211F0024D6BD /* northShuttle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = northShuttle.swift; sourceTree = "<group>"; };
+		8D0D703423EF22A00024D6BD /* holidayShuttle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = holidayShuttle.swift; sourceTree = "<group>"; };
+		8D0D703623EF23970024D6BD /* commonsShuttle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = commonsShuttle.swift; sourceTree = "<group>"; };
+		8D0D703823EF23FF0024D6BD /* southShuttle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = southShuttle.swift; sourceTree = "<group>"; };
 		8D319D8D23EE29760084567E /* DSU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSU.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D319D9023EE29760084567E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D319D9223EE29760084567E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -111,7 +119,11 @@
 				8D319D9023EE29760084567E /* AppDelegate.swift */,
 				8D319D9223EE29760084567E /* SceneDelegate.swift */,
 				8D319D9423EE29760084567E /* ViewController.swift */,
+				8D0D703223EF211F0024D6BD /* northShuttle.swift */,
+				8D0D703423EF22A00024D6BD /* holidayShuttle.swift */,
 				8D319D9623EE29760084567E /* Main.storyboard */,
+				8D0D703823EF23FF0024D6BD /* southShuttle.swift */,
+				8D0D703623EF23970024D6BD /* commonsShuttle.swift */,
 				8D319DCC23EE4C7A0084567E /* BannerViewController.swift */,
 				8D319DCA23EE4C250084567E /* ShuttleViewController.swift */,
 				8D319DC823EE4BBD0084567E /* EventsViewController.swift */,
@@ -272,12 +284,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D319DCB23EE4C250084567E /* ShuttleViewController.swift in Sources */,
+				8D0D703323EF211F0024D6BD /* northShuttle.swift in Sources */,
 				8D319D9523EE29760084567E /* ViewController.swift in Sources */,
 				8D319DCF23EE5BBC0084567E /* MapsViewController.swift in Sources */,
 				8D319D9123EE29760084567E /* AppDelegate.swift in Sources */,
 				8D319D9323EE29760084567E /* SceneDelegate.swift in Sources */,
+				8D0D703723EF23970024D6BD /* commonsShuttle.swift in Sources */,
 				8D319DC923EE4BBD0084567E /* EventsViewController.swift in Sources */,
 				8D319DCD23EE4C7A0084567E /* BannerViewController.swift in Sources */,
+				8D0D703523EF22A00024D6BD /* holidayShuttle.swift in Sources */,
+				8D0D703923EF23FF0024D6BD /* southShuttle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
