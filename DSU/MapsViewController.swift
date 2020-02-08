@@ -49,8 +49,11 @@ class MapsViewController: UIViewController {
         
     }
     private func zoomToLatestLocation(with coordinate: CLLocationCoordinate2D){
-        let zoomRegion = MKCoordinateRegion(center: coordinate, latitudinalMeters: 1000,longitudinalMeters: 1000)
+        let zoomRegion = MKCoordinateRegion(center: coordinate, latitudinalMeters: 1020,longitudinalMeters: 1020)
         mapView.setRegion(zoomRegion, animated: true)
+    }
+    private func addAnnotations(){
+        
     }
 
 }
